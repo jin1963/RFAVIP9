@@ -1,0 +1,43 @@
+body {
+  background-color: #fff;
+  color: #003366;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #00bfff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #009acd;
+}
+
+.status-message {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.status-message.error {
+  color: #e60000;
+}
+
+.status-message.success {
+  color: #007700;
+}
